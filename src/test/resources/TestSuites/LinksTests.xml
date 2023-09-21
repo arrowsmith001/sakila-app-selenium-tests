@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="LinksTests" verbose="1">
+
+    <parameter name="browser" value="chrome" />
+
+
+    <test name="Test All Links">
+
+        <parameter name="url" value="http://localhost:3000/hot" />
+
+        <classes>
+            <class name="com.arrowsmith.sakilatests.LinksTest" />
+        </classes>
+
+    </test>
+
+
+<!--    <test name="Test All Links on Browse Tropes Page">-->
+
+<!--        <parameter name="url" value="https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes" />-->
+
+<!--        <classes>-->
+<!--            <class name="com.arrowsmith.sakilatests.LinksTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+</suite>
